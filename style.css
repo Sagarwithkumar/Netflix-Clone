@@ -1,0 +1,522 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    
+
+}
+body{
+    background:#000;
+    color:#fff;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
+    background-size:cover;
+    background-position:center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.logo{
+    width: 150px;
+    cursor:pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #E50914;
+    color: #fff;
+    
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 20px;
+    
+    cursor: pointer;
+    font-weight: 600;
+    width: 80px;
+    height: 30px;
+}
+    
+nav button:hover {
+    background:#b30e0e;
+    
+  }
+  
+  
+  select:focus{
+    outline:none;
+  }
+  select.language{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: relative;
+    background: #000;
+    color: #fff;
+    padding-left: 4%;
+    padding-bottom: 1%;
+    
+    
+   
+    width: 120px;
+    height: 30px;
+
+    
+    font-size: 16px;
+    border-color: #777;
+    font-weight: 200;
+   
+    
+  }
+  select.language option{
+
+    color: #000;
+    padding: 0 10px;
+    right: 80px;
+  }
+  select.language:focus-within {
+    border:1px #fff solid;
+  }
+  .select:after{
+    content: '\25BC';
+    position: absolute;
+    
+    right: 175px;
+    bottom: 1.9px;
+    
+    font-size: 8px;
+    
+    background: transparent;
+    color: #fff;
+    padding: 8px 15px;
+    pointer-events: none;
+    
+   
+
+  }
+  .select{
+    position: relative;
+    width: 300px;
+    
+  }
+
+
+/*-----------------header-content-----------------*/
+
+
+.header-content{
+     position:absolute; 
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     margin-top: 10px;
+    
+}
+.header-content h1{
+    
+    font-size: 50px;
+    
+    font-weight: bolder;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+      
+    
+   
+    
+   
+     
+}
+.header-content h3{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-content h4{
+    font-size: 22px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+.email-signup{
+   background-color: transparent;
+  border: 0.5px #ffffffB3 solid;
+  border-radius: 4px;
+     
+     width: 23em;
+     height: 4em;
+    
+     display: flex;
+     right: -200px;
+   
+     
+     overflow: hidden;
+     justify-content: space-between;
+     margin-left: 150px;
+       align-items: center;
+        
+
+}
+.email-signup:focus-within {
+    border:1px #fff solid;
+  }
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+}
+    
+ 
+
+
+.email-signup button{
+    background:#E50914;
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    right: 180px;
+    width: 10em;
+    height: 3em;
+    outline: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+    
+    
+    padding: 15px 10px;
+    
+      
+}
+.email-signup button:hover {
+    background:#b30e0e;
+    
+  }
+
+/*--------------features-----------------*/
+.features{
+    
+    border-top:  5px solid #333;
+    color:#fff;
+    
+     
+}
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    
+    
+     
+}
+.row1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+     flex-wrap: wrap; 
+     
+    
+      
+}
+hr{
+    position:absolute;
+margin-top:-37px;
+margin-left:-175px;
+
+width: 1442px;
+
+
+   border: 3px solid #303030;
+  
+}
+.row2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+     flex-wrap: wrap; 
+     
+    
+      
+}
+
+.row3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+     flex-wrap: wrap; 
+     
+    
+      
+}
+.row4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+     flex-wrap: wrap; 
+     
+    
+      
+}
+.text-col{
+     flex-basis: 50%;
+     margin-bottom: 20px;
+
+}
+.img-col{
+    flex-basis: 50%;
+     margin-bottom: 20px;
+     
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+     font-size: 50px;
+     font-weight: 600;
+     margin-bottom: 20px; 
+}
+
+
+/*---------------faq------------*/
+
+
+.faq{
+    padding:50px 12% ;
+    text-align: center;
+    font-size: 18px;
+    
+    
+      
+}
+.faq h2{
+    font-weight: 200;
+    font-size: 38px;
+    margin-top: -70px;
+    margin-bottom: -40px;
+   
+}
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+     padding: 5px;
+      
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative; 
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s ;
+
+}
+input[type="radio"]{
+    display: none ;
+}
+.accordian .content {
+    background: #303030;
+    text-align: left;
+     padding: 0  20px;
+     max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordian input[type="radio"]:checked + label + .content {
+    max-height: 600px;
+    padding: 30px 20px;
+     
+}
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+small{
+    font-size: 22px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+
+.email-signup1{
+    background-color: transparent;
+   border: 0.5px #ffffffB3 solid;
+   border-radius: 4px;
+      
+      width: 20em;
+      height: 60px;
+     
+      display: flex;
+      right: 0px;
+    
+      
+      overflow: hidden;
+      justify-content: space-between;
+      margin-left: 240px;
+        align-items: center;
+        margin-top: 20px;
+         
+ 
+ }
+ .email-signup1:focus-within {
+    border:1px #fff solid;
+  }
+.email-signup1 input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+}
+    
+ 
+
+
+.email-signup1 button{
+    background:#E50914;
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    right: 450px;
+    width: 10em;
+    height: 3em;
+    outline: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+    
+    
+    padding: 15px 10px;
+    
+      
+}
+.email-signup1 button:hover {
+    background:#b30e0e;
+    
+  }
+ 
+ 
+
+
+ /*--------------footer--------------*/
+ .footer{
+    padding: 50px 15% 10px;
+     border-top:  6px solid #333;
+     color:#ffffffB3;
+      
+ }
+ .footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+ .footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px ;
+ }
+ .footer .col a{
+    display: block;
+    
+    color: #ffffffB3;
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
+ .footer .row{
+    align-items: flex-start;
+    padding: 10px 0; 
+ }
+ 
+  .copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  /*-----------media -queries- for small screen-------------*/
+  @media only screen and (max-width:600px){
+    .logo{
+        width:100px;
+
+    }
+    nav button{
+        padding: 5px 10px;
+
+    }
+    nav .language-btn{
+        padding: 4px 8px;
+
+    }
+    .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+
+    }
+    .header-content h1{
+        font-size: 30px;
+
+    }
+    .email-signup button{
+        font-size: 12px;
+        padding: 10px 15px; 
+    }
+    .text-col,.img-col{
+       flex-basis: 100% ;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 15 px;
+    }
+    .row:nth-child(2),.row:nth-child(4){
+         flex-direction: column-reverse;
+    }
+    .features .row{
+        padding: 10px 0;
+    }
+    .faq h2{
+        font-size: 20px;
+
+    }
+    .accordian .content{
+        font-size: 14px;
+    }
+    .accordian li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+  }
